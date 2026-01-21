@@ -8,4 +8,4 @@ If you use this program, please cite the following paper:
 
 2. After extracting the files, place the FAMTDE folder into the directory ./PlatEMO/Algorithms/Multi-objective optimization, place the AidenProblem folder into the directory ./PlatEMO/Problems/Multi-objective optimization, and place the chebfun folder into the directory ./PlatEMO. Then, add the chebfun file path in MATLAB.
 
-3. Subsequently, you can run the program by selecting the corresponding problem and algorithm according to the PlatEMO manual, for example: platemo('algorithm',@FAMTDE,'problem',@Aiden_f22_problem1_1,'maxFE',300000);
+3. Subsequently, you can run the program by selecting the corresponding problem and algorithm according to the PlatEMO manual, for example: platemo('algorithm',@FAMTDE,'problem',@FAMTDE_problem,'maxFE',300000);
